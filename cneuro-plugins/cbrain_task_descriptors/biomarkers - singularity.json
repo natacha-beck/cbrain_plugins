@@ -1,5 +1,5 @@
 {
-  "name": "Biomarkers plugin on Singularity",
+  "name": "Biomarkers_on_Singularity",
   "tool-version": "1.0.0",
   "author":"Eng. Tania Perez Ramirez << tperezdevelopment@gmail.com >> Cuban Center for Neurosciences",
   "description":"This module is useful for detect biomarkers through generalized linear models with  penalties and resampling thecniques for validation. Paper reference:https://www.frontiersin.org/articles/10.3389/fnins.2017.00749/full",
