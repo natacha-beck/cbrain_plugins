@@ -199,8 +199,9 @@
     }
   ],
   "container-image": {
-    "image": "inverse_solutions_eeg:latest",
-    "type": "docker"
+    "index": "docker://",
+    "image": "tperezdevelopment/inverse_solutions_eeg:1.0.0",
+    "type": "singularity"
   },
   "schema-version": "0.5",
   "groups": [
