@@ -182,8 +182,9 @@
     }
   ],
   "container-image": {
+    "index": "docker://",
     "image": "tperezdevelopment90/biomarkers:1.0.1",
-    "type": "docker"
+    "type": "singularity"
   },
   "schema-version": "0.5",
   "output-files": [
