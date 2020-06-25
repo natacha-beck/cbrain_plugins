@@ -193,7 +193,7 @@
       "description": "A folder containing the output file for Biomarkers module",
       "value-key": "[output]",
       "id": "output",
-      "path-template": "/Biomarkers_Outputs",
+      "path-template": "Biomarkers_Outputs",
       "name": "Output folder"
     }
   ],
