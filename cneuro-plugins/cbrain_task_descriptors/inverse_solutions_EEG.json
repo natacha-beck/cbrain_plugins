@@ -245,7 +245,7 @@
       "description": "A folder containing the outputs file for Inverse Solutions module",
       "value-key": "[output]",
       "id": "output",
-      "path-template": "/InverseSolutionEEG_outputs",
+      "path-template": "InverseSolutionEEG_outputs",
       "name": "Output folder"
     }
   ],
