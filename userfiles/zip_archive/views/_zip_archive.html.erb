@@ -25,9 +25,9 @@
 <% if @userfile.is_locally_synced? %>
 
   <%
-    show_lines  = 300 # how many lines we show
+    show_lines  = 500 # how many lines we show
     zip_list    = []
-    zip_list_io = IO.popen("unzip #{@userfile.cache_full_path.to_s.bash_escape}","r") rescue nil
+    zip_list_io = IO.popen("unzip -l #{@userfile.cache_full_path.to_s.bash_escape}","r") rescue nil
     zip_list_io and show_lines.downto(0) do |i|
       line = zip_list_io.gets
       break unless line
