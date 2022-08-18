@@ -36,7 +36,7 @@
         "value-key": "[outputFolder_path]",
         "default-value": "HarMNqEEG_Outputs"
     },
-	  {
+    {
       "command-line-flag": "--subjects_metadata",
       "description": "In case generate_cross_spectra is True this must be a *.csv, *.tsv or *.mat file format. This file must contain a list of subjects (See more: https://github.com/tperezdevelopment/HarMNqEEG#metadata).",
       "value-key": "[subjects_metadata]",
@@ -57,7 +57,7 @@
       "id": "log",
       "name": "Log Spectrum"
     },
-	  {
+    {
       "command-line-flag": "--riemlogm",
       "description": "Type of gaussianize method to apply. Cross-spectrum with Riemannian Vectorization.",
       "default-value": true,
@@ -68,7 +68,7 @@
       "id": "riemlogm",
       "name": "Cross-spectrum with Riemannian Vectorization."
     },
-	  {
+    {
       "command-line-flag": "--batch_correction",
       "description": "List of the batch correction. You must select one of the following studies for calculating batch harmonized z-scores. The batch_correction you can put the number of the batch list or the batch correction name. The name of existed batch reference is the union between: EEG_Device+Country+Study_Year.",
       "value-key": "[batch_correction]",
@@ -143,7 +143,7 @@
       "id": "optional_matrix",
       "name": "optional_matrix"
     }
-	],
+  ],
   "output-files": [
     {
       "description": "Path of output folder.",
@@ -160,7 +160,7 @@
         "domain": [
           "neuroinformatics",
           "norms",
-    			"eeg"
+    	  "eeg"
         ]
   },
   "tool-doi": "https://www.biorxiv.org/content/10.1101/2022.01.12.476128v1",
